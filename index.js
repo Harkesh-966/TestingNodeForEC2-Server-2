@@ -3,8 +3,7 @@ const app = express();
 const port = 4000;
 
 app.get('/health', (req, res) => {
-    console.log('Health check endpoint hit Server 2');
-    res.send('Health check passed!');
+    res.send('Health check endpoint hit Server 2');
 });
 
 app.listen(port, () => {
